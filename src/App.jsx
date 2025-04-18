@@ -14,6 +14,7 @@ function App() {
       <h1 className='text-red-700'>hello</h1>
       <Product/>
       <Carousel/>
+      <Footer/>
     </>
   )
 }
