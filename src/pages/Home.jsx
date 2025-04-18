@@ -1,13 +1,12 @@
 import React from 'react'
-import H
+import Hero from '../components/Hero'
 
-
-function home()
+function Home() {
   return (
-    <div>
-        <Hero/>
+    <div>Home
+      <Hero/>
     </div>
   )
 }
 
-export default home
+export default Home
