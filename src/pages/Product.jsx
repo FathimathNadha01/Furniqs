@@ -6,7 +6,9 @@ import Carousel from '../components/Carousel'
 function Product() {
     const [count,setCount] = useState(0)
   return (
+            
     <div className='flex gap-8 p-5'>
+        
         <Imagegallery/>
         <div>
         <h1 className='font-bold text-2xl mt-5'>Asgarda Sofa</h1>
@@ -46,6 +48,7 @@ function Product() {
         
             
         </div>
+        <div><Carousel/></div>
 
         
     </div>

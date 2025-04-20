@@ -1,13 +1,16 @@
 import React from 'react'
-import 
+import Hero from '../components/home/Hero'
 
-
-function home()
+function Home() {
   return (
     <div>
-        <Hero/>
+      <Hero/>
+<div className='text-center mt-6'>
+      <h1 className='font-bold text-2xl'>Browse The Range</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
     </div>
   )
 }
 
-export default home
+export default Home

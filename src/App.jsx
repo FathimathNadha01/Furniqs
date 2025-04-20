@@ -8,6 +8,8 @@ import Carousel from './components/Carousel'
 import Navbar from './components/layout/Navbar'
 
 import { Route, Routes } from 'react-router-dom'
+import Home from './pages/Home'
+import Layout from './components/layout/Layout'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,15 +17,12 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path='/' element={<Home/>}>
-
+        <Route path='/' element={<Layout/>}>
+        <Route path='/home' element={<Home/>}></Route>
+        <Route path='/product' element={<Product/>}></Route>
         </Route>
       </Routes>
-      <Navbar/>
       
-      <Product/>
-      <Carousel/>
-      <Footer/>
     </>
   )
 }
