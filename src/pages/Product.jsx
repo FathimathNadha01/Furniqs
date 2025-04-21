@@ -43,12 +43,13 @@ function Product() {
             <p> tags:sofa,chair,home,shop</p>
             <p>share:</p>
         </div>
+        {/* <Carousel/> */}
 
     
         
             
         </div>
-        <div><Carousel/></div>
+        {/* <Carousel/> */}
 
         
     </div>
