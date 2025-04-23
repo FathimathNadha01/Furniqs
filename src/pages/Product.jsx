@@ -48,7 +48,7 @@ function Product() {
         
             
         </div>
-        <div><Carousel/></div>
+       
 
         
     </div>
