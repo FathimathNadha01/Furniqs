@@ -23,7 +23,7 @@ function Home() {
 
     </div>
     <div>
-      <img src={image.livingroom} alt="" />
+      <img src={image.living_room} alt="" />
       <p className='text-center mt-5'>Living</p>
     </div>
     <div>

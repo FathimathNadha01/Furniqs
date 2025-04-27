@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className="grid grid-cols-4 p-5">
+    <div className="grid lg:grid-cols-4 p-5">
       <div>
         <h1 className='font-bold'>Funiro.</h1>
         <p className='mt-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, corrupti?</p>
